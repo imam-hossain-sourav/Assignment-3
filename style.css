@@ -1,7 +1,6 @@
 .size{
     font-size: 50px;
 }
-
 .navbar-nav{
     margin-right: 150px;
 }
@@ -11,6 +10,13 @@
 .get{
     font-size: 60px;
 }
-.learn{
-    font-size: 60px;
+.started{
+    font-size: 1.4em;
+}
+.text{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.course{
+    font-size: 1.4em;
 }
