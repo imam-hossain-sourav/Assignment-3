@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/3753566651.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3753566651.js" crossorigin="anonymous"></script>
   </head>
   <body>
     
@@ -61,17 +62,17 @@
                 <div class="carousel-item" data-bs-interval="2000">
                     <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h3 class="text-white">Slide Two</h3>
-                        <p class="text-white">Some representative placeholder content for the third slide.</p>
+                        <h3 class="text-black">Slide Two</h3>
+                        <p class="text-black">Some representative placeholder content for the third slide.</p>
                     </div>
                 </div>
               
                                 <!-- slide-three -->
                 <div class="carousel-item" data-bs-interval="2000">
-                    <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+                    <img class="img-fluid" src="images/cover/cover-2.jpg" class="d-block w-100 h-25" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h3 class="text-white">Slide Three</h3>
-                        <p class="text-white">Some representative placeholder content for the third slide.</p>
+                        <h3 class="text-black">Slide Three</h3>
+                        <p class="text-black">Some representative placeholder content for the third slide.</p>
                     </div>
                 </div>
             </div>
@@ -178,10 +179,10 @@
 
     <section class="container">
         <div class="row gx-5">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <img class="img-fluid" src="images/working.png" alt="">
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="margin">
                     <div>
                         <h1><strong> Explore the e-learning institute</strong></h1>
@@ -216,24 +217,48 @@
 
                                         <!-- Ready to join -->
     <section class="container">
-        <div class="row bg-primary rounded px-5 py-5">
+        <div class="row bg-primary rounded py-5">
             <div class="col-lg-9">
-                <div class="text-white mx-5">
-                    <h1>Ready to join?</h1><br>
-                    <span>He came to a lone broom bush and collapsed in its shade, wanting in the</span><br>
-                    <span>worst way to be done with it all--to just die: "Enough of</span>
+                <div class="text-white">
+                    <h1>Ready to join?</h1>
+                    <p>He came to a lone broom bush and collapsed in its shade, wanting in the</p>
+                    <p>worst way to be done with it all--to just die: "Enough of</p>
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="mt-5 mx-4">
-                    <a class="text-decoration-none bg-white text-primary rounded px-3 py-2" href=""><b>Register Now</b></a>
+                <div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="bg-white text-primary rounded px-4 py-2 border mt-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <b>Register Now</b>
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-danger">
+                                    <b>Hi instructor , Is my modal is correct ?</b>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            
         </div>
     </section><br><br>
 
 
 
+                            <!-- Successfull students -->
     <section>
         <div class="Success my-5">
             <h1>Meet Our Successfull</h1>
@@ -245,37 +270,39 @@
 
     <section class="container">
         <div class="row">
-            <div class="col-lg-3">
-                <div class="border">
+            <div class="col-lg-3 col-md-6">
+                <div class="border my-3 mx-3">
                     <img class="img-fluid" src="images/student/student-1.png" alt=""><br><br>
                     <span class="mx-3"><b>Awlad Hossain</b></span><br>
                     <span class="mx-3">UI/UX Designer</span><br><br>
                 </div>
             </div>
-            <div class="col-lg-3">
-                <div class="border">
+            <div class="col-lg-3 col-md-6">
+                <div class="border my-3 mx-3">
                     <img class="img-fluid" src="images/student/student-2.png" alt=""><br><br>
                     <span class="mx-3"><b>Jannatul islam</b></span><br>
                     <span class="mx-3">Motion Designer</span><br><br>
                 </div>
             </div>
-            <div class="col-lg-3">
-                <div class="border">
+            <div class="col-lg-3 col-md-6">
+                <div class="border my-3 mx-3">
                     <img class="img-fluid" src="images/student/student-3.png" alt=""><br><br>
                     <span class="mx-3"><b>Imran Hossain</b></span><br>
                     <span class="mx-3">Graphics Designer</span><br><br>
                 </div>
             </div>
-            <div class="col-lg-3">
-                <div class="border">
+            <div class="col-lg-3 col-md-6">
+                <div class="border my-3 mx-3">
                     <img class="img-fluid" src="images/student/student-4.png" alt=""><br><br>
                     <span class="mx-3"><b>Jacqueline</b></span><br>
                     <span class="mx-3">Web developer</span><br><br>
                 </div>
             </div>
         </div>
-        <div class="d-flex justify-content-center my-4">
-            <a class="text-decoration-none bg-primary text-white rounded px-4 py-2" href="">View all</a>
+        <div class="students">
+            <div class="d-flex justify-content-center my-4">
+                <a class="text-decoration-none bg-primary text-white rounded px-4 py-2" href="">View all</a>
+            </div>
         </div>
     </section><br><br><br>
 
@@ -290,14 +317,14 @@
 
     <section class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 my-1">
                 <div class="border rounded p-4">
                     <img src="images/comma.png" alt=""><br><br>
                     <!-- icon dita hoba -->
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto</span><br>
-                    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit ipsum ip</span><br>
-                    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspe</span><br>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span><br><br>
+                    <span>Feedback is any response regarding a student's performance or beh</span><br>
+                    <span>Feedback is any response regarding a student's performance or b</span><br>
+                    <span>Feedback is any response regarding a student's performance or</span><br>
+                    <span>Feedback is any response regarding a student's performan</span><br><br>
                     
                     <div class="d-flex">
                         <div>
@@ -310,14 +337,14 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 my-1">
                 <div class="feedback border rounded p-4">
                     <img src="images/comma.png" alt=""><br><br>
                     <!-- icon dita hoba -->
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto,!</span><br>
-                    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit ipsum ip</span><br>
-                    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspe!</span><br>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span><br><br>
+                    <span>Feedback is any response regarding a student's performance or beh</span><br>
+                    <span>Feedback is any response regarding a student's performance or b</span><br>
+                    <span>Feedback is any response regarding a student's performance or</span><br>
+                    <span>Feedback is any response regarding a student's performan</span><br><br>
                     
                     <div class="d-flex">
                         <div>
@@ -329,6 +356,11 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="response">
+            <div class="d-flex justify-content-center my-4">
+                <a class="text-decoration-none bg-primary text-white rounded px-4 py-2" href="">View all</a>
             </div>
         </div>
     </section><br><br><br><br><br>
@@ -400,15 +432,15 @@
 
 
                                             <!-- Company -->
-    <section>
+    <section class="company">
         <h1 class="d-flex justify-content-center"><b><i>Trusted over by 800+ Companies</i></b></h1><br>
         <div class="d-flex justify-content-center">
-            <img class="img-fluid" src="images/company/company-1.png" alt="">
-            <img class="img-fluid mx-5" src="images/company/company-2.png" alt="">
-            <img class="img-fluid" src="images/company/company-3.png" alt="">
-            <img class="img-fluid mx-5" src="images/company/company-4.png" alt="">
-            <img class="img-fluid" src="images/company/company-5.png" alt="">
-            <img class="img-fluid mx-5" src="images/company/company-6.png" alt="">
+            <img class="img-fluid h-25" src="images/company/company-1.png" alt="">
+            <img class="img-fluid mx-5 h-25" src="images/company/company-2.png" alt="">
+            <img class="img-fluid h-25" src="images/company/company-3.png" alt="">
+            <img class="img-fluid mx-5 h-25" src="images/company/company-4.png" alt="">
+            <img class="img-fluid h-25" src="images/company/company-5.png" alt="">
+            <img class="img-fluid mx-5 h-25" src="images/company/company-6.png" alt="">
         </div>
     </section><br><br><br><br><br>
 
@@ -429,17 +461,6 @@
         </div>
     </footer>
     
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -33,3 +33,18 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
+@media screen and (max-width: 991px){
+        .company{
+            display: none;
+        }
+}
+@media screen and (min-width: 992px) {
+    .response{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .students{
+        display: none;
+    }    
+}
